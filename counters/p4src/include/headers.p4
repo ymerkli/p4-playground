@@ -52,8 +52,6 @@ header tcp_t{
 }
 
 struct metadata {
-    bit<14> ecmp_hash;
-    bit<14> ecmp_group_id;
 }
 
 struct headers {
